@@ -5,6 +5,8 @@ This project demonstrates the creation of a relational database for managing and
 The purpose of this project is to create a structured database for clinical trials that allows easy access to patient information, treatment details, and trial outcomes. This project is useful for analyzing clinical trial data to gain insights on treatment efficacy, patient health outcomes, and adverse events.
 
 ## Database Schema
+![clinical_trial_database_Project](https://github.com/user-attachments/assets/58f18da0-fe05-454e-881f-1a1f4766e9d7)
+This schema represents the core structure of the clinical trials database, including tables for patients, treatments, visits, and adverse events.
 
 **Patients**: Stores patient information including their ID, name, age, gender, diagnosis, and enrollment date.
               Fields: Patient_ID, Name, Age, Gender, Diagnosis, Enrollment_Date, Treatment_ID
