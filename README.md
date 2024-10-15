@@ -6,10 +6,6 @@ The purpose of this project is to create a structured database for clinical tria
 
 ## Database Schema
 
-![Clinical Trials Database Schema](https://github-production-user-asset-6210df.s3.amazonaws.com/181974266/376344843-0243a703-a239-4744-ad08-ce3977d7af37.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20241014%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241014T180944Z&X-Amz-Expires=300&X-Amz-Signature=64d74b49855b31f1a872775ef18b8b71fbf327a54b8f13d7a618fe9854298bbd&X-Amz-SignedHeaders=host)
-
-This schema represents the core structure of the clinical trials database, including tables for patients, treatments, visits, and adverse events.
-
 **Patients**: Stores patient information including their ID, name, age, gender, diagnosis, and enrollment date.
               Fields: Patient_ID, Name, Age, Gender, Diagnosis, Enrollment_Date, Treatment_ID
 **Treatments**: Stores details about the treatments administered to patients.
