@@ -8,14 +8,55 @@ The purpose of this project is to create a structured database for clinical tria
 ![clinical_trial_database_Project](https://github.com/user-attachments/assets/58f18da0-fe05-454e-881f-1a1f4766e9d7)
 This schema represents the core structure of the clinical trials database, including tables for patients, treatments, visits, and adverse events.
 
-**Patients**: Stores patient information including their ID, name, age, gender, diagnosis, and enrollment date.
-              Fields: Patient_ID, Name, Age, Gender, Diagnosis, Enrollment_Date, Treatment_ID
-**Treatments**: Stores details about the treatments administered to patients.
-                Fields: Treatment_ID, Treatment_Name, Description
-**Visits**: Logs each patient’s visit to the clinic, including vital signs and any notes from the visit.
-            Fields: Visit_ID, Patient_ID, Visit_Date, Visit_Type, Blood_Pressure, Heart_Rate, Notes
-**Adverse Events**: Records adverse events experienced by patients during the trial.
-                    Fields: Event_ID, Patient_ID, Event_Date, Event_Description, Severity
+## Detailed Explanation of the Database Structure
+
+The database consists of several key tables:
+
+### 1. Patients Table
+- **Purpose**: To store information about each patient involved in the clinical trial.
+- **Key Columns**:
+  - `Patient_ID`: A unique identifier for each patient.
+  - `Name`: The patient's name.
+  - `Age`: The patient's age.
+  - `Gender`: The patient's gender.
+  - `Diagnosis`: The medical diagnosis of the patient.
+  - `Enrollment_Date`: The date the patient was enrolled in the trial.
+  - `Treatment_ID`: A reference to the treatment assigned to the patient.
+
+![Patients Table Structure](images/patients_table_structure.png)
+
+### 2. Treatments Table
+- **Purpose**: To record the treatments being administered during the trial.
+- **Key Columns**:
+  - `Treatment_ID`: Unique identifier for each treatment.
+  - `Treatment_Name`: The name of the treatment.
+  - `Description`: A detailed description of the treatment.
+
+![Treatments Table Structure](images/treatments_table_structure.png)
+
+### 3. Visits Table
+- **Purpose**: To log patient visits, including vital signs and notes.
+- **Key Columns**:
+  - `Visit_ID`: Unique identifier for each visit.
+  - `Patient_ID`: Reference to the patient.
+  - `Visit_Date`: The date of the visit.
+  - `Visit_Type`: Type of visit (e.g., follow-up, routine).
+  - `Blood_Pressure`: Blood pressure recorded during the visit.
+  - `Heart_Rate`: Heart rate recorded during the visit.
+  - `Notes`: Additional notes from the visit.
+
+![Visits Table Structure](images/visits_table_structure.png)
+
+### 4. Adverse Events Table
+- **Purpose**: To record any adverse effects experienced by patients.
+- **Key Columns**:
+  - `Event_ID`: Unique identifier for each adverse event.
+  - `Patient_ID`: Reference to the patient.
+  - `Event_Date`: The date the event occurred.
+  - `Event_Description`: Description of the event.
+  - `Severity`: Severity level of the event (e.g., mild, moderate, severe).
+
+![Adverse Events Table Structure](images/adverse_events_table_structure.png)
                   
                   
 
