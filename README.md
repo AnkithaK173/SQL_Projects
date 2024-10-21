@@ -50,3 +50,4 @@ IV) **Scalability**: The system can be expanded to support additional features l
 
 **Database Structure**
 **The system's database structure consists of four primary tables**:
+![image](https://github.com/user-attachments/assets/cc0c984e-fcbd-4d83-85c1-0ce7e7d60095)
