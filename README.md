@@ -166,3 +166,25 @@ To make this project more user-friendly, you can integrate it with a web applica
 
 ![image](https://github.com/user-attachments/assets/61429608-52da-4d1b-8716-d97423d22e2e)
 
+**Example GUI**:
+Login Screen:
+Appointment Dashboard:
+Medical Records Page:
+
+**How to Use This Project**
+**Step 1**: Setup MySQL
+ Ensure MySQL is installed.
+ Use the provided SQL scripts to set up the database.
+ 
+**Step 2**: Insert Sample Data
+ Run the sample data insertion scripts to populate the tables.
+ 
+**Step 3**: Query the Data
+ Use the querying examples to retrieve information from the database.
+ 
+**Step 4**: Frontend Integration (Optional)
+ Develop a web application to interface with the backend for a seamless user experience.
+ 
+**Conclusion**
+
+Integrating a frontend application with the Medical Management System significantly enhances user experience by providing an intuitive interface for managing healthcare processes. This step is crucial for making the application more interactive and user-friendly, ultimately improving patient and provider satisfaction.
