@@ -163,3 +163,6 @@ CREATE TABLE Medical_Records (
 **Frontend Integration**:
 
 To make this project more user-friendly, you can integrate it with a web application using a frontend framework (like HTML, CSS, JavaScript, or React) or a backend language like Python, PHP, or Node.js to interact with the MySQL database. This would allow doctors, patients, and admins to manage appointments and view data through a graphical interface.
+
+![image](https://github.com/user-attachments/assets/61429608-52da-4d1b-8716-d97423d22e2e)
+
